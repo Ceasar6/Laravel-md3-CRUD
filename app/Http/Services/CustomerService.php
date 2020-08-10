@@ -28,6 +28,7 @@ class CustomerService
         $customer->name = $request->name;
         $customer->dob = $request->dob;
         $customer->email = $request->email;
+        $customer->city_id = $request->city_id;
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $path = $image->store('images', 'public');
@@ -47,6 +48,7 @@ class CustomerService
         $customer->name = $request->name;
         $customer->dob = $request->dob;
         $customer->email = $request->email;
+        $customer->city_id = $request->city_id;
         //cap nhat anh
         if ($request->hasFile('image')) {
 

@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469061fc-749f-4a2c-b3aa-09986ab822c4" name="Default Changelist" comment="" />
+    <list default="true" id="469061fc-749f-4a2c-b3aa-09986ab822c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Repositories/CityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Repositories/CityRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Services/CityService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Services/CityService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Services/CustomerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Services/CustomerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_07_092642_create_cities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_07_092642_create_cities_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_07_093652_fix_customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_07_093652_fix_customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CitiestableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CitiestableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cities/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cities/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cities/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cities/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/customer/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/customer/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/customer/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/customer/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/customer/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/customer/update.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +37,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -115,16 +143,22 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/yoeunes/toastr" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fi0LoivhJHS5qc7W5iwFOVQLxt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -148,26 +182,46 @@
       <workItem from="1596707307228" duration="299000" />
       <workItem from="1596708917521" duration="232000" />
       <workItem from="1596768167489" duration="228000" />
-      <workItem from="1596769063024" duration="6222000" />
+      <workItem from="1596769063024" duration="7087000" />
+      <workItem from="1596781950997" duration="24000" />
+      <workItem from="1596792353479" duration="13354000" />
+      <workItem from="1596878269654" duration="1389000" />
+      <workItem from="1597007093940" duration="733000" />
+      <workItem from="1597023988934" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="415" y="210" width="561" height="373" key="NewPhpClassDialog" timestamp="1596696244290">
+    <state x="453" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596795195363">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="415" y="210" width="561" height="373" key="NewPhpClassDialog/35.27.1331.741@35.27.1331.741" timestamp="1596696244290" />
-    <state x="496" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1596706429246">
+    <state x="453" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/35.27.1331.741@35.27.1331.741" timestamp="1596795195363" />
+    <state x="458" y="272" width="474" height="248" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#1" timestamp="1596867728274">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="496" y="322" width="399" height="149" key="NewPhpFileDialog/35.27.1331.741@35.27.1331.741" timestamp="1596706429246" />
-    <state x="356" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1596769062481">
+    <state x="458" y="272" width="474" height="248" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#1/35.27.1331.741@35.27.1331.741" timestamp="1596867728274" />
+    <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597024004741">
       <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state x="356" y="224" key="com.intellij.ide.util.TipDialog/35.27.1331.741@35.27.1331.741" timestamp="1596769062481" />
+    <state x="483" y="154" width="424" height="484" key="FileChooserDialogImpl/35.27.1331.741@35.27.1331.741" timestamp="1597024004741" />
+    <state x="415" y="210" width="561" height="373" key="NewPhpClassDialog" timestamp="1596795173190">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="415" y="210" width="561" height="373" key="NewPhpClassDialog/35.27.1331.741@35.27.1331.741" timestamp="1596795173190" />
+    <state x="496" y="322" width="399" height="149" key="NewPhpFileDialog" timestamp="1596878895694">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="496" y="322" width="399" height="149" key="NewPhpFileDialog/35.27.1331.741@35.27.1331.741" timestamp="1596878895694" />
+    <state x="356" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1597023993464">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="356" y="224" key="com.intellij.ide.util.TipDialog/35.27.1331.741@35.27.1331.741" timestamp="1597023993464" />
     <state x="363" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1596698723995">
       <screen x="35" y="27" width="1331" height="741" />
     </state>

@@ -6,13 +6,6 @@
             <div class="col-12">
                 <h2 style="text-align: center">Customer List</h2>
             </div>
-            <div class="col-12">
-                @if(Session::has('success'))
-                    <p class="text-success">
-                        <i class="fa fa-check" aria-hidden="true"></i>{{ Session::get('success') }}
-                    </p>
-                @endif
-            </div>
         </div>
         <a href="{{route('customers.create')}}">Add Customer</a>
         <table class="table">
@@ -22,12 +15,13 @@
                 <th scope="col">Name</th>
                 <th scope="col">DOB</th>
                 <th scope="col">Email</th>
+                <th scope="col">City</th>
                 <th scope="col">Image</th>
                 <th></th>
                 <th></th>
             </tr>
             </thead>
-            <tbody>
+            <tbody id="result">
             @if(count($customers) == 0)
                 <tr>
                     <td>No Data</td>
@@ -39,6 +33,9 @@
                         <td>{{$customer->name}} </td>
                         <td>{{$customer->dob}} </td>
                         <td>{{$customer->email}} </td>
+                        <td>@if($customer->city_id)
+                            {{$customer->city->name}}
+                        @endif</td>
                         <td>
                             @if($customer->image)
                                 <img src="{{ asset('storage/'.$customer->image)}}" alt=""

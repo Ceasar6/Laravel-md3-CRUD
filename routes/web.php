@@ -25,3 +25,8 @@ Route::prefix('customers')->group(function (){
     Route::get('/{id}/delete','CustomerController@delete')->name('customers.delete');
 
 });
+Route::prefix('cities')->group(function (){
+    Route::get('/','CityController@index')->name('cities.index');
+    Route::get('/create','CityController@create')->name('cities.create');
+    Route::post('/create','CityController@add')->name('cities.add');
+});

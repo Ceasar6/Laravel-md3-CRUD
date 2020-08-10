@@ -21,8 +21,21 @@
                         <input type="email" class="form-control" name="email" value="{{ $customer->email }}" required>
                     </div>
                     <div class="form-group">
-                        <label>Email</label>
-                        <input type="file" name="image" class="form-control-file" required>
+                        <label>City</label>
+                        <select name="city_id">
+                            @foreach($cities as $city)
+                                <option
+                                    @if($customer->city_id == $city->id)
+                                        selected
+                                        @endif
+
+                                    value="{{$city->id}}"> {{$city->name}}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Image</label>
+                        <input type="file" name="image" class="form-control-file">
                     </div>
 
                     <button type="submit" class="btn btn-primary">Chỉnh sửa</button>
